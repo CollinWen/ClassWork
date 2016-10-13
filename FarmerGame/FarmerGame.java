@@ -33,13 +33,10 @@ public class FarmerGame {
 		Scanner user_input = new Scanner(System.in);
 		
 		while(true) {
-			String input = user_input.next();			
-			while(true) {
-				if(game(input)) {
-					break;
-				}
-				input = user_input.next();
-			}
+			
+			String input = "";
+			while(
+			input = getInput();
 			
 			printBoard();
 			
@@ -155,8 +152,18 @@ public class FarmerGame {
 			human = !human;
 			return true;
 		} else {
-			System.out.println("Sorry, that's not a valid input. Please enter again");
+			System.out.println("Sorry, that's not possible move. Please enter again");
 			return false;
+		}
+	}
+	public static String getInput() {
+		Scanner kb = new Scanner(System.in);
+		String user_input = kb.nextLine();
+		if(user_input == "H" || user_input == "C" || user_input == "S" || user_input == "W") {
+			return user_input;
+		} else {
+			System.out.println("Invalid input. Please enter 'C', 'S', 'W', or 'H'");
+			return getInput();
 		}
 	}
 }
