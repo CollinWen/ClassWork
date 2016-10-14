@@ -33,10 +33,13 @@ public class FarmerGame {
 		Scanner user_input = new Scanner(System.in);
 		
 		while(true) {
-			
-			String input = "";
-			while(
-			input = getInput();
+			String input = user_input.next();			
+			while(true) {
+				if(game(input)) {
+					break;
+				}
+				input = user_input.next();
+			}
 			
 			printBoard();
 			
