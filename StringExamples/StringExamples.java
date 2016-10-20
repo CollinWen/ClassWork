@@ -101,7 +101,7 @@ public class StringExamples {
 	/**
 	*	This method takes in a String and returns true if the given String is a palindrome.
 	*
-	*	ITERATIVE PROCEDURE WITHOUT CHARAT METHOD
+	*	RECURSIVE PROCEDURE WITHOUT CHARAT METHOD
 	*
 	*	@param s the String to check whether it is a palindrome
 	*	@return boolean true if palindrome, false otherwise
@@ -123,7 +123,7 @@ public class StringExamples {
 	/**
 	*	This method takes in a String and returns true if the given String is a palindrome.
 	*
-	*	RECURSIVE PROCEDURE WITHOUT CHARAT METHOD
+	*	ITERATIVE PROCEDURE WITHOUT CHARAT METHOD
 	*
 	*	@param s the String to check whether it is a palindrome
 	*	@return boolean true if palindrome, false otherwise
