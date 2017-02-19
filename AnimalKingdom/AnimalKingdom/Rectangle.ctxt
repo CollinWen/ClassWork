@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Rectangle()
+comment1.params=l\ w
+comment1.target=Rectangle(int,\ int)
+comment2.params=
+comment2.target=int\ getSideWidth()
+comment3.params=w
+comment3.target=void\ setSideWidth(int)
+comment4.params=
+comment4.target=double\ area()
+numComments=5

@@ -12,6 +12,9 @@ public class Animal
     public Animal() {
         age = 1;
     }
+    public Animal(int a) {
+        age = a;
+    }
     
     public int getAge() {
         return age;

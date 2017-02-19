@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Square1()
+comment1.params=sL
+comment1.target=Square1(int)
+comment2.params=sL
+comment2.target=void\ setSL(int)
+comment3.params=sW
+comment3.target=void\ setSW(int)
+numComments=4

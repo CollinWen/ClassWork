@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Triangle()
+comment1.params=length\ name
+comment1.target=Triangle(int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=int\ getPerimeter()
+comment4.params=
+comment4.target=double\ area()
+numComments=5

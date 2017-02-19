@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Rectangle1()
+comment1.params=sL\ sW
+comment1.target=Rectangle1(int,\ int)
+comment2.params=
+comment2.target=int\ getSL()
+comment3.params=
+comment3.target=int\ getSW()
+comment4.params=sL
+comment4.target=void\ setSL(int)
+comment5.params=sW
+comment5.target=void\ setSW(int)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=r
+comment7.target=boolean\ equals(Rectangle1)
+numComments=8

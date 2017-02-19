@@ -7,5 +7,5 @@
  */
 public class Reptile extends Animal
 {
-   
+   private int numEggs;
 }

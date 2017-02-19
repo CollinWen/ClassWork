@@ -1,6 +1,8 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Animal()
-comment1.params=
-comment1.target=int\ getAge()
-numComments=2
+comment1.params=a
+comment1.target=Animal(int)
+comment2.params=
+comment2.target=int\ getAge()
+numComments=3
